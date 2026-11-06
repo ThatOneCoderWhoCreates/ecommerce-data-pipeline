@@ -1,0 +1,12 @@
+[
+  {
+    "source": "support",
+    "record_number": 450,
+    "reason": "missing_customer_id",
+    "record": {
+      "customer_id": null,
+      "support_tickets": "8",
+      "last_ticket_date": "2026-07-03"
+    }
+  }
+]

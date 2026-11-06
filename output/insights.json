@@ -1,0 +1,3926 @@
+{
+  "kpis": {
+    "total_customers": 500,
+    "total_revenue": 64582401.0,
+    "avg_lifetime_value": 129423.65,
+    "median_lifetime_value": 130402.0,
+    "avg_orders_per_customer": 15.47,
+    "avg_order_value": 8378.62,
+    "avg_tickets_per_customer": 6.16
+  },
+  "top_customers": [
+    {
+      "rank": 1,
+      "customer_id": "C0042",
+      "name": "Arjun Singh 42",
+      "city": "Mumbai",
+      "lifetime_value": 249919,
+      "total_orders": 18,
+      "segment": "Gold"
+    },
+    {
+      "rank": 2,
+      "customer_id": "C0259",
+      "name": "Rahul Verma 259",
+      "city": "Mumbai",
+      "lifetime_value": 249763,
+      "total_orders": 18,
+      "segment": "Gold"
+    },
+    {
+      "rank": 3,
+      "customer_id": "C0269",
+      "name": "Priya Nair 269",
+      "city": "Hyderabad",
+      "lifetime_value": 249586,
+      "total_orders": 9,
+      "segment": "Gold"
+    },
+    {
+      "rank": 4,
+      "customer_id": "C0172",
+      "name": "Karan Mehta 172",
+      "city": "Hyderabad",
+      "lifetime_value": 247202,
+      "total_orders": 27,
+      "segment": "Gold"
+    },
+    {
+      "rank": 5,
+      "customer_id": "C0286",
+      "name": "Priya Nair 286",
+      "city": "Mumbai",
+      "lifetime_value": 246558,
+      "total_orders": 30,
+      "segment": "Gold"
+    },
+    {
+      "rank": 6,
+      "customer_id": "C0288",
+      "name": "Priya Nair 288",
+      "city": "Hyderabad",
+      "lifetime_value": 246076,
+      "total_orders": 30,
+      "segment": "Gold"
+    },
+    {
+      "rank": 7,
+      "customer_id": "C0444",
+      "name": "Rahul Verma 444",
+      "city": "Mumbai",
+      "lifetime_value": 245660,
+      "total_orders": 4,
+      "segment": "Gold"
+    },
+    {
+      "rank": 8,
+      "customer_id": "C0001",
+      "name": "Priya Nair 1",
+      "city": "Mumbai",
+      "lifetime_value": 245631,
+      "total_orders": 12,
+      "segment": "Gold"
+    },
+    {
+      "rank": 9,
+      "customer_id": "C0405",
+      "name": "Neha Gupta 405",
+      "city": "Hyderabad",
+      "lifetime_value": 244894,
+      "total_orders": 13,
+      "segment": "Gold"
+    },
+    {
+      "rank": 10,
+      "customer_id": "C0250",
+      "name": "Ananya Das 250",
+      "city": "Chennai",
+      "lifetime_value": 244107,
+      "total_orders": 15,
+      "segment": "Gold"
+    }
+  ],
+  "segmentation": {
+    "rules": {
+      "method": "fixed",
+      "gold_above": 100000.0,
+      "silver_from": 50000.0
+    },
+    "summary": [
+      {
+        "segment": "Gold",
+        "customers": 318,
+        "revenue": 54295741.0,
+        "avg_lifetime_value": 170741.32,
+        "avg_orders": 15.65,
+        "avg_tickets": 6.12,
+        "customer_share_pct": 63.6,
+        "revenue_share_pct": 84.07
+      },
+      {
+        "segment": "Silver",
+        "customers": 101,
+        "revenue": 7832628.0,
+        "avg_lifetime_value": 77550.77,
+        "avg_orders": 14.7,
+        "avg_tickets": 5.89,
+        "customer_share_pct": 20.2,
+        "revenue_share_pct": 12.13
+      },
+      {
+        "segment": "Bronze",
+        "customers": 80,
+        "revenue": 2454032.0,
+        "avg_lifetime_value": 30675.4,
+        "avg_orders": 15.78,
+        "avg_tickets": 6.69,
+        "customer_share_pct": 16.0,
+        "revenue_share_pct": 3.8
+      },
+      {
+        "segment": "Unknown",
+        "customers": 1,
+        "revenue": 0.0,
+        "avg_lifetime_value": null,
+        "avg_orders": 11.0,
+        "avg_tickets": 1.0,
+        "customer_share_pct": 0.2,
+        "revenue_share_pct": 0.0
+      }
+    ]
+  },
+  "support": {
+    "high_ticket_threshold": 5,
+    "customers_above_threshold": 268,
+    "share_above_threshold_pct": 53.6,
+    "high_value_at_risk_count": 171,
+    "high_value_at_risk_revenue": 29689213.0,
+    "avg_tickets_by_segment": {
+      "Gold": 6.12,
+      "Silver": 5.89,
+      "Bronze": 6.69,
+      "Unknown": 1.0
+    },
+    "ticket_distribution": {
+      "0": 35,
+      "1": 41,
+      "2": 42,
+      "3": 35,
+      "4": 32,
+      "5": 46,
+      "6": 30,
+      "7": 37,
+      "8": 31,
+      "9": 42,
+      "10": 34,
+      "11": 49,
+      "12": 45
+    },
+    "customers": [
+      {
+        "customer_id": "C0042",
+        "name": "Arjun Singh 42",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-29",
+        "lifetime_value": 249919,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0259",
+        "name": "Rahul Verma 259",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-01-14",
+        "lifetime_value": 249763,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0048",
+        "name": "Arjun Singh 48",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-13",
+        "lifetime_value": 243683,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0478",
+        "name": "Neha Gupta 478",
+        "city": "Bengaluru",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-06-15",
+        "lifetime_value": 224853,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0442",
+        "name": "Neha Gupta 442",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-09-06",
+        "lifetime_value": 218164,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0340",
+        "name": "Arjun Singh 340",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-09-22",
+        "lifetime_value": 216528,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0105",
+        "name": "Vikram Jain 105",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-02-02",
+        "lifetime_value": 214005,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0087",
+        "name": "Arjun Singh 87",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-02-28",
+        "lifetime_value": 209247,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0022",
+        "name": "Neha Gupta 22",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-06-18",
+        "lifetime_value": 207080,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0476",
+        "name": "Rahul Verma 476",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-03-08",
+        "lifetime_value": 200416,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0063",
+        "name": "Neha Gupta 63",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-08-09",
+        "lifetime_value": 195640,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0418",
+        "name": "Arjun Singh 418",
+        "city": "Pune",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-03-07",
+        "lifetime_value": 193746,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0276",
+        "name": "Arjun Singh 276",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-02-07",
+        "lifetime_value": 193051,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0055",
+        "name": "Pooja Rao 55",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-04",
+        "lifetime_value": 192355,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0169",
+        "name": "Karan Mehta 169",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-04-16",
+        "lifetime_value": 173031,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0456",
+        "name": "Ananya Das 456",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-01-29",
+        "lifetime_value": 171919,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0080",
+        "name": "Sneha Patel 80",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-04-16",
+        "lifetime_value": 171637,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0154",
+        "name": "Karan Mehta 154",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-10-06",
+        "lifetime_value": 155706,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0284",
+        "name": "Karan Mehta 284",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-08-01",
+        "lifetime_value": 155505,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0240",
+        "name": "Priya Nair 240",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-03-10",
+        "lifetime_value": 155095,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0251",
+        "name": "Sneha Patel 251",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-03-05",
+        "lifetime_value": 148202,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0331",
+        "name": "Pooja Rao 331",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-08-03",
+        "lifetime_value": 145682,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0379",
+        "name": "Sneha Patel 379",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-21",
+        "lifetime_value": 134924,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0156",
+        "name": "Karan Mehta 156",
+        "city": "Bengaluru",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-01-22",
+        "lifetime_value": 127115,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0107",
+        "name": "Priya Nair 107",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-10-02",
+        "lifetime_value": 116280,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0490",
+        "name": "Pooja Rao 490",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-09-07",
+        "lifetime_value": 107137,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0408",
+        "name": "Karan Mehta 408",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-03-13",
+        "lifetime_value": 99177,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0311",
+        "name": "Rahul Verma 311",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-01-16",
+        "lifetime_value": 84153,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0281",
+        "name": "Priya Nair 281",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-23",
+        "lifetime_value": 80299,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0360",
+        "name": "Ananya Das 360",
+        "city": "Pune",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-12",
+        "lifetime_value": 65205,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0482",
+        "name": "Pooja Rao 482",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-02-26",
+        "lifetime_value": 64805,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0451",
+        "name": "Pooja Rao 451",
+        "city": "Kolkata",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-10-27",
+        "lifetime_value": 64207,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0062",
+        "name": "Sneha Patel 62",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-06-19",
+        "lifetime_value": 61532,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0462",
+        "name": "Pooja Rao 462",
+        "city": "Kolkata",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-07-03",
+        "lifetime_value": 60421,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0354",
+        "name": "Karan Mehta 354",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-05-06",
+        "lifetime_value": 51785,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0457",
+        "name": "Arjun Singh 457",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-04-23",
+        "lifetime_value": 49927,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0157",
+        "name": "Ananya Das 157",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-08-14",
+        "lifetime_value": 38642,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0014",
+        "name": "Pooja Rao 14",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-02-09",
+        "lifetime_value": 38500,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0207",
+        "name": "Sneha Patel 207",
+        "city": "Delhi",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-06-25",
+        "lifetime_value": 33179,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0275",
+        "name": "Amit Sharma 275",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-08-30",
+        "lifetime_value": 31266,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0352",
+        "name": "Arjun Singh 352",
+        "city": "Kolkata",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-04-11",
+        "lifetime_value": 26037,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0265",
+        "name": "Karan Mehta 265",
+        "city": "Hyderabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-05-03",
+        "lifetime_value": 25717,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0165",
+        "name": "Sneha Patel 165",
+        "city": "Chennai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-05-02",
+        "lifetime_value": 25672,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0291",
+        "name": "Pooja Rao 291",
+        "city": "Ahmedabad",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-03-21",
+        "lifetime_value": 14821,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0439",
+        "name": "Vikram Jain 439",
+        "city": "Mumbai",
+        "support_tickets": 12,
+        "last_ticket_date": "2026-01-10",
+        "lifetime_value": 8106,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0405",
+        "name": "Neha Gupta 405",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-09",
+        "lifetime_value": 244894,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0160",
+        "name": "Ananya Das 160",
+        "city": "Pune",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-07",
+        "lifetime_value": 243737,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0233",
+        "name": "Rahul Verma 233",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-09",
+        "lifetime_value": 240606,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0047",
+        "name": "Rahul Verma 47",
+        "city": "Delhi",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-08-05",
+        "lifetime_value": 222853,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0215",
+        "name": "Arjun Singh 215",
+        "city": "Delhi",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-09",
+        "lifetime_value": 221350,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0067",
+        "name": "Amit Sharma 67",
+        "city": "Pune",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-09-23",
+        "lifetime_value": 213115,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0493",
+        "name": "Ananya Das 493",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-07-02",
+        "lifetime_value": 204582,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0398",
+        "name": "Ananya Das 398",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-08",
+        "lifetime_value": 181016,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0353",
+        "name": "Pooja Rao 353",
+        "city": "Chennai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-07",
+        "lifetime_value": 176320,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0175",
+        "name": "Pooja Rao 175",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-30",
+        "lifetime_value": 175689,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0380",
+        "name": "Pooja Rao 380",
+        "city": "Chennai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-06-17",
+        "lifetime_value": 173641,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0303",
+        "name": "Neha Gupta 303",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-12",
+        "lifetime_value": 165158,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0030",
+        "name": "Neha Gupta 30",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-09-09",
+        "lifetime_value": 165063,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0395",
+        "name": "Pooja Rao 395",
+        "city": "Delhi",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-01-21",
+        "lifetime_value": 163589,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0003",
+        "name": "Priya Nair 3",
+        "city": "Delhi",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-14",
+        "lifetime_value": 161732,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0499",
+        "name": "Sneha Patel 499",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-21",
+        "lifetime_value": 161480,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0366",
+        "name": "Karan Mehta 366",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-24",
+        "lifetime_value": 160698,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0334",
+        "name": "Vikram Jain 334",
+        "city": "Kolkata",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-06-13",
+        "lifetime_value": 157868,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0084",
+        "name": "Pooja Rao 84",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-08-20",
+        "lifetime_value": 157542,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0496",
+        "name": "Rahul Verma 496",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-31",
+        "lifetime_value": 150421,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0069",
+        "name": "Pooja Rao 69",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-22",
+        "lifetime_value": 145523,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0296",
+        "name": "Neha Gupta 296",
+        "city": "Kolkata",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-03",
+        "lifetime_value": 137176,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0041",
+        "name": "Ananya Das 41",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-02-05",
+        "lifetime_value": 130983,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0223",
+        "name": "Karan Mehta 223",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-04-30",
+        "lifetime_value": 124796,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0310",
+        "name": "Priya Nair 310",
+        "city": "Ahmedabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-02",
+        "lifetime_value": 122109,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0304",
+        "name": "Pooja Rao 304",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-01-06",
+        "lifetime_value": 117119,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0485",
+        "name": "Neha Gupta 485",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-07-22",
+        "lifetime_value": 104633,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0053",
+        "name": "Sneha Patel 53",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-08-03",
+        "lifetime_value": 103281,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0498",
+        "name": "Vikram Jain 498",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-01-01",
+        "lifetime_value": 97776,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0361",
+        "name": "Sneha Patel 361",
+        "city": "Chennai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-06-07",
+        "lifetime_value": 95743,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0231",
+        "name": "Ananya Das 231",
+        "city": "Kolkata",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-06-25",
+        "lifetime_value": 91832,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0225",
+        "name": "Pooja Rao 225",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-02-18",
+        "lifetime_value": 90974,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0197",
+        "name": "Pooja Rao 197",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-08-23",
+        "lifetime_value": 86976,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0091",
+        "name": "Amit Sharma 91",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-05",
+        "lifetime_value": 81924,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0193",
+        "name": "Karan Mehta 193",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-07-08",
+        "lifetime_value": 81077,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0481",
+        "name": "Rahul Verma 481",
+        "city": "Delhi",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-14",
+        "lifetime_value": 76651,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0184",
+        "name": "Vikram Jain 184",
+        "city": "Delhi",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-06-14",
+        "lifetime_value": 58483,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0039",
+        "name": "Rahul Verma 39",
+        "city": "Kolkata",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-04-18",
+        "lifetime_value": 57349,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0103",
+        "name": "Priya Nair 103",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-04-20",
+        "lifetime_value": 53973,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0056",
+        "name": "Rahul Verma 56",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-02",
+        "lifetime_value": 43285,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0192",
+        "name": "Neha Gupta 192",
+        "city": "Chennai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-23",
+        "lifetime_value": 41930,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0246",
+        "name": "Arjun Singh 246",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-04-20",
+        "lifetime_value": 41197,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0349",
+        "name": "Arjun Singh 349",
+        "city": "Mumbai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-05-05",
+        "lifetime_value": 40501,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0167",
+        "name": "Amit Sharma 167",
+        "city": "Hyderabad",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-08-08",
+        "lifetime_value": 37812,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0100",
+        "name": "Sneha Patel 100",
+        "city": "Pune",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-04-12",
+        "lifetime_value": 37630,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0315",
+        "name": "Sneha Patel 315",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-10-23",
+        "lifetime_value": 35991,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0464",
+        "name": "Sneha Patel 464",
+        "city": "Pune",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-06-30",
+        "lifetime_value": 24489,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0182",
+        "name": "Priya Nair 182",
+        "city": "Chennai",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-09",
+        "lifetime_value": 20705,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0130",
+        "name": "Rahul Verma 130",
+        "city": "Bengaluru",
+        "support_tickets": 11,
+        "last_ticket_date": "2026-03-30",
+        "lifetime_value": 11793,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0401",
+        "name": "Rahul Verma 401",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-03",
+        "lifetime_value": 243287,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0178",
+        "name": "Pooja Rao 178",
+        "city": "Bengaluru",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-02-18",
+        "lifetime_value": 238045,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0208",
+        "name": "Amit Sharma 208",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-01-25",
+        "lifetime_value": 236330,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0043",
+        "name": "Priya Nair 43",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-09-13",
+        "lifetime_value": 226745,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0090",
+        "name": "Amit Sharma 90",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-26",
+        "lifetime_value": 208473,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0283",
+        "name": "Priya Nair 283",
+        "city": "Ahmedabad",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-09-14",
+        "lifetime_value": 206516,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0059",
+        "name": "Vikram Jain 59",
+        "city": "Hyderabad",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-07-01",
+        "lifetime_value": 189952,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0006",
+        "name": "Vikram Jain 6",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-07-14",
+        "lifetime_value": 182833,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0118",
+        "name": "Priya Nair 118",
+        "city": "Kolkata",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-02",
+        "lifetime_value": 180946,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0097",
+        "name": "Ananya Das 97",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-04-05",
+        "lifetime_value": 174581,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0294",
+        "name": "Neha Gupta 294",
+        "city": "Kolkata",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-02-03",
+        "lifetime_value": 173116,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0274",
+        "name": "Ananya Das 274",
+        "city": "Ahmedabad",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-30",
+        "lifetime_value": 172233,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0373",
+        "name": "Karan Mehta 373",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-07-21",
+        "lifetime_value": 156381,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0247",
+        "name": "Sneha Patel 247",
+        "city": "Pune",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-19",
+        "lifetime_value": 152033,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0338",
+        "name": "Karan Mehta 338",
+        "city": "Delhi",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-01-27",
+        "lifetime_value": 124746,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0181",
+        "name": "Sneha Patel 181",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-06",
+        "lifetime_value": 123893,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0046",
+        "name": "Amit Sharma 46",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-20",
+        "lifetime_value": 122786,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0454",
+        "name": "Priya Nair 454",
+        "city": "Pune",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-05-04",
+        "lifetime_value": 111241,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0140",
+        "name": "Vikram Jain 140",
+        "city": "Kolkata",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-09-11",
+        "lifetime_value": 96075,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0222",
+        "name": "Vikram Jain 222",
+        "city": "Pune",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-06",
+        "lifetime_value": 92304,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0376",
+        "name": "Karan Mehta 376",
+        "city": "Pune",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-08",
+        "lifetime_value": 83774,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0256",
+        "name": "Pooja Rao 256",
+        "city": "Delhi",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 80760,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0413",
+        "name": "Amit Sharma 413",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 58248,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0316",
+        "name": "Arjun Singh 316",
+        "city": "Kolkata",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-02-09",
+        "lifetime_value": 46868,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0198",
+        "name": "Vikram Jain 198",
+        "city": "Mumbai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-07-03",
+        "lifetime_value": 46770,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0120",
+        "name": "Rahul Verma 120",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-10",
+        "lifetime_value": 42428,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0089",
+        "name": "Sneha Patel 89",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-02-25",
+        "lifetime_value": 40350,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0188",
+        "name": "Vikram Jain 188",
+        "city": "Ahmedabad",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-08-01",
+        "lifetime_value": 39279,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0260",
+        "name": "Pooja Rao 260",
+        "city": "Delhi",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-04",
+        "lifetime_value": 36948,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0491",
+        "name": "Neha Gupta 491",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-12",
+        "lifetime_value": 32931,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0216",
+        "name": "Amit Sharma 216",
+        "city": "Chennai",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-04",
+        "lifetime_value": 30344,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0210",
+        "name": "Rahul Verma 210",
+        "city": "Hyderabad",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-08-24",
+        "lifetime_value": 16860,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0241",
+        "name": "Karan Mehta 241",
+        "city": "Hyderabad",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-03-15",
+        "lifetime_value": 9964,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0431",
+        "name": "Vikram Jain 431",
+        "city": "Pune",
+        "support_tickets": 10,
+        "last_ticket_date": "2026-06-01",
+        "lifetime_value": 6673,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0115",
+        "name": "Ananya Das 115",
+        "city": "Hyderabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-02-28",
+        "lifetime_value": 233075,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0351",
+        "name": "Pooja Rao 351",
+        "city": "Pune",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-09-10",
+        "lifetime_value": 232965,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0187",
+        "name": "Karan Mehta 187",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-05-18",
+        "lifetime_value": 230647,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0458",
+        "name": "Karan Mehta 458",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-18",
+        "lifetime_value": 226598,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0472",
+        "name": "Karan Mehta 472",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-04-23",
+        "lifetime_value": 223798,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0173",
+        "name": "Vikram Jain 173",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-10-03",
+        "lifetime_value": 221330,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0336",
+        "name": "Priya Nair 336",
+        "city": "Hyderabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-10",
+        "lifetime_value": 216993,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0106",
+        "name": "Arjun Singh 106",
+        "city": "Bengaluru",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-02-22",
+        "lifetime_value": 215016,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0252",
+        "name": "Neha Gupta 252",
+        "city": "Bengaluru",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-16",
+        "lifetime_value": 207372,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0031",
+        "name": "Pooja Rao 31",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-05-05",
+        "lifetime_value": 201224,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0300",
+        "name": "Priya Nair 300",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-01-29",
+        "lifetime_value": 198099,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0243",
+        "name": "Vikram Jain 243",
+        "city": "Pune",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-01-05",
+        "lifetime_value": 186010,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0113",
+        "name": "Priya Nair 113",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-18",
+        "lifetime_value": 185817,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0035",
+        "name": "Karan Mehta 35",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-04-13",
+        "lifetime_value": 182814,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0171",
+        "name": "Rahul Verma 171",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-06-29",
+        "lifetime_value": 177682,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0486",
+        "name": "Priya Nair 486",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-02-21",
+        "lifetime_value": 167166,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0150",
+        "name": "Karan Mehta 150",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-09-11",
+        "lifetime_value": 165418,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0205",
+        "name": "Arjun Singh 205",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-03-08",
+        "lifetime_value": 161635,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0465",
+        "name": "Karan Mehta 465",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-10-16",
+        "lifetime_value": 147352,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0206",
+        "name": "Amit Sharma 206",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-09-06",
+        "lifetime_value": 145690,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0461",
+        "name": "Neha Gupta 461",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-06-12",
+        "lifetime_value": 143453,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0119",
+        "name": "Amit Sharma 119",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 139502,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0371",
+        "name": "Priya Nair 371",
+        "city": "Bengaluru",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-02-18",
+        "lifetime_value": 137093,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0244",
+        "name": "Vikram Jain 244",
+        "city": "Pune",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-03-26",
+        "lifetime_value": 136548,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0258",
+        "name": "Pooja Rao 258",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-05-26",
+        "lifetime_value": 130777,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0323",
+        "name": "Ananya Das 323",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-03-01",
+        "lifetime_value": 128424,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0036",
+        "name": "Sneha Patel 36",
+        "city": "Bengaluru",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-10-07",
+        "lifetime_value": 126026,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0114",
+        "name": "Rahul Verma 114",
+        "city": "Chennai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-20",
+        "lifetime_value": 122212,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0414",
+        "name": "Karan Mehta 414",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-10-28",
+        "lifetime_value": 113509,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0348",
+        "name": "Pooja Rao 348",
+        "city": "Chennai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-06-05",
+        "lifetime_value": 112182,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0051",
+        "name": "Neha Gupta 51",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-25",
+        "lifetime_value": 108928,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0262",
+        "name": "Ananya Das 262",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-09-18",
+        "lifetime_value": 108424,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0026",
+        "name": "Vikram Jain 26",
+        "city": "Hyderabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-04-13",
+        "lifetime_value": 103754,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0017",
+        "name": "Sneha Patel 17",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-04-11",
+        "lifetime_value": 85967,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0057",
+        "name": "Pooja Rao 57",
+        "city": "Bengaluru",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 80203,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0135",
+        "name": "Sneha Patel 135",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-01-28",
+        "lifetime_value": 79862,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0463",
+        "name": "Rahul Verma 463",
+        "city": "Kolkata",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-01-15",
+        "lifetime_value": 76065,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0272",
+        "name": "Rahul Verma 272",
+        "city": "Delhi",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-08-04",
+        "lifetime_value": 68558,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0127",
+        "name": "Sneha Patel 127",
+        "city": "Hyderabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-16",
+        "lifetime_value": 41095,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0320",
+        "name": "Pooja Rao 320",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-03-27",
+        "lifetime_value": 40014,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0061",
+        "name": "Vikram Jain 61",
+        "city": "Ahmedabad",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-07-24",
+        "lifetime_value": 25768,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0050",
+        "name": "Vikram Jain 50",
+        "city": "Mumbai",
+        "support_tickets": 9,
+        "last_ticket_date": "2026-09-03",
+        "lifetime_value": 11991,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0269",
+        "name": "Priya Nair 269",
+        "city": "Hyderabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-01-07",
+        "lifetime_value": 249586,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0172",
+        "name": "Karan Mehta 172",
+        "city": "Hyderabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-05-24",
+        "lifetime_value": 247202,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0444",
+        "name": "Rahul Verma 444",
+        "city": "Mumbai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-06-14",
+        "lifetime_value": 245660,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0400",
+        "name": "Sneha Patel 400",
+        "city": "Hyderabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-01-26",
+        "lifetime_value": 242773,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0287",
+        "name": "Neha Gupta 287",
+        "city": "Chennai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-03-20",
+        "lifetime_value": 236275,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0372",
+        "name": "Karan Mehta 372",
+        "city": "Pune",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-03-10",
+        "lifetime_value": 218853,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0139",
+        "name": "Arjun Singh 139",
+        "city": "Pune",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-09-16",
+        "lifetime_value": 217471,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0363",
+        "name": "Amit Sharma 363",
+        "city": "Chennai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-05-02",
+        "lifetime_value": 217199,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0092",
+        "name": "Pooja Rao 92",
+        "city": "Bengaluru",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-03-31",
+        "lifetime_value": 212384,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0290",
+        "name": "Arjun Singh 290",
+        "city": "Mumbai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-04-15",
+        "lifetime_value": 201346,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0229",
+        "name": "Sneha Patel 229",
+        "city": "Delhi",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-08-16",
+        "lifetime_value": 190791,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0433",
+        "name": "Karan Mehta 433",
+        "city": "Mumbai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-09-03",
+        "lifetime_value": 190380,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0345",
+        "name": "Rahul Verma 345",
+        "city": "Delhi",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-08-22",
+        "lifetime_value": 188601,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0282",
+        "name": "Arjun Singh 282",
+        "city": "Chennai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-05-27",
+        "lifetime_value": 174318,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0112",
+        "name": "Priya Nair 112",
+        "city": "Bengaluru",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-06-10",
+        "lifetime_value": 162973,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0158",
+        "name": "Vikram Jain 158",
+        "city": "Mumbai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-04-22",
+        "lifetime_value": 159084,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0292",
+        "name": "Rahul Verma 292",
+        "city": "Kolkata",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-06-17",
+        "lifetime_value": 153887,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0148",
+        "name": "Amit Sharma 148",
+        "city": "Kolkata",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-05-28",
+        "lifetime_value": 150233,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0131",
+        "name": "Amit Sharma 131",
+        "city": "Bengaluru",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-03-27",
+        "lifetime_value": 140723,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0307",
+        "name": "Amit Sharma 307",
+        "city": "Hyderabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-05-13",
+        "lifetime_value": 130161,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0125",
+        "name": "Rahul Verma 125",
+        "city": "Mumbai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-07-18",
+        "lifetime_value": 122944,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0483",
+        "name": "Ananya Das 483",
+        "city": "Ahmedabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-07-06",
+        "lifetime_value": 103415,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0005",
+        "name": "Priya Nair 5",
+        "city": "Hyderabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-03-28",
+        "lifetime_value": 91426,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0054",
+        "name": "Ananya Das 54",
+        "city": "Delhi",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-01-19",
+        "lifetime_value": 88541,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0151",
+        "name": "Neha Gupta 151",
+        "city": "Pune",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-09-19",
+        "lifetime_value": 86078,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0081",
+        "name": "Vikram Jain 81",
+        "city": "Delhi",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-09-05",
+        "lifetime_value": 71492,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0052",
+        "name": "Priya Nair 52",
+        "city": "Pune",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-09-17",
+        "lifetime_value": 66807,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0468",
+        "name": "Karan Mehta 468",
+        "city": "Kolkata",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-06-08",
+        "lifetime_value": 59305,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0318",
+        "name": "Arjun Singh 318",
+        "city": "Chennai",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-07-04",
+        "lifetime_value": 35779,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0068",
+        "name": "Vikram Jain 68",
+        "city": "Hyderabad",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-10-25",
+        "lifetime_value": 34060,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0093",
+        "name": "Vikram Jain 93",
+        "city": "Delhi",
+        "support_tickets": 8,
+        "last_ticket_date": "2026-03-23",
+        "lifetime_value": 15985,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0350",
+        "name": "Arjun Singh 350",
+        "city": "Bengaluru",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-07-08",
+        "lifetime_value": 238657,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0101",
+        "name": "Arjun Singh 101",
+        "city": "Kolkata",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-08-08",
+        "lifetime_value": 238173,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0245",
+        "name": "Pooja Rao 245",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-06-29",
+        "lifetime_value": 227396,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0432",
+        "name": "Priya Nair 432",
+        "city": "Kolkata",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-07-30",
+        "lifetime_value": 225868,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0429",
+        "name": "Priya Nair 429",
+        "city": "Pune",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-03-18",
+        "lifetime_value": 224956,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0268",
+        "name": "Ananya Das 268",
+        "city": "Mumbai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-06",
+        "lifetime_value": 222042,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0117",
+        "name": "Pooja Rao 117",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-03-30",
+        "lifetime_value": 212481,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0023",
+        "name": "Arjun Singh 23",
+        "city": "Delhi",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-06-21",
+        "lifetime_value": 198631,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0186",
+        "name": "Rahul Verma 186",
+        "city": "Hyderabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-03-14",
+        "lifetime_value": 193314,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0143",
+        "name": "Ananya Das 143",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-03-27",
+        "lifetime_value": 191007,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0424",
+        "name": "Karan Mehta 424",
+        "city": "Delhi",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-01-16",
+        "lifetime_value": 173216,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0194",
+        "name": "Sneha Patel 194",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-09-07",
+        "lifetime_value": 166317,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0421",
+        "name": "Priya Nair 421",
+        "city": "Hyderabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-01-26",
+        "lifetime_value": 154366,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0132",
+        "name": "Karan Mehta 132",
+        "city": "Hyderabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-05-28",
+        "lifetime_value": 152239,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0164",
+        "name": "Ananya Das 164",
+        "city": "Pune",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-03-02",
+        "lifetime_value": 141025,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0317",
+        "name": "Vikram Jain 317",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-08-22",
+        "lifetime_value": 136732,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0234",
+        "name": "Neha Gupta 234",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-06",
+        "lifetime_value": 129410,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0407",
+        "name": "Arjun Singh 407",
+        "city": "Mumbai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-22",
+        "lifetime_value": 127224,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0387",
+        "name": "Rahul Verma 387",
+        "city": "Kolkata",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-08-27",
+        "lifetime_value": 126379,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0202",
+        "name": "Karan Mehta 202",
+        "city": "Pune",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-05-18",
+        "lifetime_value": 124860,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0392",
+        "name": "Priya Nair 392",
+        "city": "Pune",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-05-16",
+        "lifetime_value": 122908,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0266",
+        "name": "Karan Mehta 266",
+        "city": "Ahmedabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-07-17",
+        "lifetime_value": 120966,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0072",
+        "name": "Priya Nair 72",
+        "city": "Delhi",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-09-14",
+        "lifetime_value": 117522,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0474",
+        "name": "Priya Nair 474",
+        "city": "Kolkata",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-01-01",
+        "lifetime_value": 105622,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0018",
+        "name": "Sneha Patel 18",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-24",
+        "lifetime_value": 94583,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0227",
+        "name": "Vikram Jain 227",
+        "city": "Ahmedabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-09",
+        "lifetime_value": 93178,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0391",
+        "name": "Pooja Rao 391",
+        "city": "Hyderabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-06-07",
+        "lifetime_value": 91576,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0162",
+        "name": "Sneha Patel 162",
+        "city": "Ahmedabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-05-15",
+        "lifetime_value": 84724,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0441",
+        "name": "Arjun Singh 441",
+        "city": "Chennai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-10-06",
+        "lifetime_value": 80153,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0129",
+        "name": "Karan Mehta 129",
+        "city": "Bengaluru",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-10-03",
+        "lifetime_value": 78056,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0040",
+        "name": "Priya Nair 40",
+        "city": "Kolkata",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-05-30",
+        "lifetime_value": 70536,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0404",
+        "name": "Amit Sharma 404",
+        "city": "Bengaluru",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-10-12",
+        "lifetime_value": 68594,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0370",
+        "name": "Neha Gupta 370",
+        "city": "Delhi",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 61955,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0027",
+        "name": "Amit Sharma 27",
+        "city": "Hyderabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-06-10",
+        "lifetime_value": 52407,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0110",
+        "name": "Vikram Jain 110",
+        "city": "Mumbai",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-02-28",
+        "lifetime_value": 25989,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0137",
+        "name": "Amit Sharma 137",
+        "city": "Hyderabad",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-03-11",
+        "lifetime_value": 24412,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0213",
+        "name": "Neha Gupta 213",
+        "city": "Bengaluru",
+        "support_tickets": 7,
+        "last_ticket_date": "2026-01-01",
+        "lifetime_value": 24275,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0224",
+        "name": "Karan Mehta 224",
+        "city": "Pune",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-02-16",
+        "lifetime_value": 239129,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0412",
+        "name": "Amit Sharma 412",
+        "city": "Chennai",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-07-10",
+        "lifetime_value": 225130,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0095",
+        "name": "Sneha Patel 95",
+        "city": "Kolkata",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-08-25",
+        "lifetime_value": 218753,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0364",
+        "name": "Amit Sharma 364",
+        "city": "Pune",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-09-09",
+        "lifetime_value": 205816,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0423",
+        "name": "Neha Gupta 423",
+        "city": "Ahmedabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-07-22",
+        "lifetime_value": 205110,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0285",
+        "name": "Vikram Jain 285",
+        "city": "Ahmedabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-07-25",
+        "lifetime_value": 198642,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0440",
+        "name": "Arjun Singh 440",
+        "city": "Mumbai",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-07-03",
+        "lifetime_value": 194318,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0024",
+        "name": "Rahul Verma 24",
+        "city": "Hyderabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-03-11",
+        "lifetime_value": 178520,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0099",
+        "name": "Ananya Das 99",
+        "city": "Pune",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-01-15",
+        "lifetime_value": 176896,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0189",
+        "name": "Amit Sharma 189",
+        "city": "Hyderabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-08-20",
+        "lifetime_value": 152233,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0141",
+        "name": "Vikram Jain 141",
+        "city": "Pune",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-09-09",
+        "lifetime_value": 147126,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0248",
+        "name": "Vikram Jain 248",
+        "city": "Bengaluru",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-08-15",
+        "lifetime_value": 130402,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0214",
+        "name": "Ananya Das 214",
+        "city": "Delhi",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-04-14",
+        "lifetime_value": 123057,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0126",
+        "name": "Neha Gupta 126",
+        "city": "Mumbai",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-03-12",
+        "lifetime_value": 121376,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0102",
+        "name": "Arjun Singh 102",
+        "city": "Ahmedabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-01-03",
+        "lifetime_value": 120274,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0369",
+        "name": "Arjun Singh 369",
+        "city": "Ahmedabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-07-10",
+        "lifetime_value": 120071,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0495",
+        "name": "Ananya Das 495",
+        "city": "Ahmedabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-06-07",
+        "lifetime_value": 117978,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0002",
+        "name": "Sneha Patel 2",
+        "city": "Hyderabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 112156,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0128",
+        "name": "Priya Nair 128",
+        "city": "Pune",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-04-06",
+        "lifetime_value": 109342,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0500",
+        "name": "Vikram Jain 500",
+        "city": "Bengaluru",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-10-18",
+        "lifetime_value": 105987,
+        "segment": "Gold"
+      },
+      {
+        "customer_id": "C0076",
+        "name": "Neha Gupta 76",
+        "city": "Delhi",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-02-13",
+        "lifetime_value": 99530,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0293",
+        "name": "Pooja Rao 293",
+        "city": "Delhi",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-10-28",
+        "lifetime_value": 92829,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0200",
+        "name": "Karan Mehta 200",
+        "city": "Bengaluru",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-04-22",
+        "lifetime_value": 85882,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0142",
+        "name": "Priya Nair 142",
+        "city": "Chennai",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-08-16",
+        "lifetime_value": 83631,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0191",
+        "name": "Karan Mehta 191",
+        "city": "Ahmedabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-09-21",
+        "lifetime_value": 75116,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0356",
+        "name": "Neha Gupta 356",
+        "city": "Chennai",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-01-13",
+        "lifetime_value": 63376,
+        "segment": "Silver"
+      },
+      {
+        "customer_id": "C0425",
+        "name": "Karan Mehta 425",
+        "city": "Pune",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-08-07",
+        "lifetime_value": 49101,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0445",
+        "name": "Vikram Jain 445",
+        "city": "Hyderabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-05-19",
+        "lifetime_value": 44032,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0159",
+        "name": "Arjun Singh 159",
+        "city": "Hyderabad",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-02-22",
+        "lifetime_value": 38825,
+        "segment": "Bronze"
+      },
+      {
+        "customer_id": "C0201",
+        "name": "Rahul Verma 201",
+        "city": "Mumbai",
+        "support_tickets": 6,
+        "last_ticket_date": "2026-04-19",
+        "lifetime_value": 28605,
+        "segment": "Bronze"
+      }
+    ]
+  },
+  "regional": {
+    "by_city": [
+      {
+        "city": "Chennai",
+        "customers": 72,
+        "revenue": 9620343.0,
+        "avg_lifetime_value": 133615.88,
+        "avg_orders": 15.76,
+        "avg_tickets": 6.07,
+        "revenue_share_pct": 14.9
+      },
+      {
+        "city": "Mumbai",
+        "customers": 68,
+        "revenue": 9557559.0,
+        "avg_lifetime_value": 140552.34,
+        "avg_orders": 16.25,
+        "avg_tickets": 6.99,
+        "revenue_share_pct": 14.8
+      },
+      {
+        "city": "Hyderabad",
+        "customers": 76,
+        "revenue": 9356301.0,
+        "avg_lifetime_value": 123109.22,
+        "avg_orders": 14.72,
+        "avg_tickets": 6.11,
+        "revenue_share_pct": 14.49
+      },
+      {
+        "city": "Kolkata",
+        "customers": 58,
+        "revenue": 7674636.0,
+        "avg_lifetime_value": 134642.74,
+        "avg_orders": 16.09,
+        "avg_tickets": 5.48,
+        "revenue_share_pct": 11.88
+      },
+      {
+        "city": "Delhi",
+        "customers": 62,
+        "revenue": 7635499.0,
+        "avg_lifetime_value": 123153.21,
+        "avg_orders": 16.19,
+        "avg_tickets": 6.51,
+        "revenue_share_pct": 11.82
+      },
+      {
+        "city": "Ahmedabad",
+        "customers": 60,
+        "revenue": 7449679.0,
+        "avg_lifetime_value": 124161.32,
+        "avg_orders": 15.0,
+        "avg_tickets": 6.3,
+        "revenue_share_pct": 11.54
+      },
+      {
+        "city": "Bengaluru",
+        "customers": 53,
+        "revenue": 6674959.0,
+        "avg_lifetime_value": 125942.62,
+        "avg_orders": 14.83,
+        "avg_tickets": 5.83,
+        "revenue_share_pct": 10.34
+      },
+      {
+        "city": "Pune",
+        "customers": 51,
+        "revenue": 6613425.0,
+        "avg_lifetime_value": 129675.0,
+        "avg_orders": 14.75,
+        "avg_tickets": 5.76,
+        "revenue_share_pct": 10.24
+      }
+    ],
+    "segments_by_city": [
+      {
+        "city": "Ahmedabad",
+        "Bronze": 9,
+        "Gold": 40,
+        "Silver": 11,
+        "Unknown": 0
+      },
+      {
+        "city": "Bengaluru",
+        "Bronze": 7,
+        "Gold": 34,
+        "Silver": 12,
+        "Unknown": 0
+      },
+      {
+        "city": "Chennai",
+        "Bronze": 12,
+        "Gold": 47,
+        "Silver": 13,
+        "Unknown": 0
+      },
+      {
+        "city": "Delhi",
+        "Bronze": 8,
+        "Gold": 37,
+        "Silver": 17,
+        "Unknown": 0
+      },
+      {
+        "city": "Hyderabad",
+        "Bronze": 19,
+        "Gold": 45,
+        "Silver": 12,
+        "Unknown": 0
+      },
+      {
+        "city": "Kolkata",
+        "Bronze": 6,
+        "Gold": 35,
+        "Silver": 16,
+        "Unknown": 1
+      },
+      {
+        "city": "Mumbai",
+        "Bronze": 10,
+        "Gold": 48,
+        "Silver": 10,
+        "Unknown": 0
+      },
+      {
+        "city": "Pune",
+        "Bronze": 9,
+        "Gold": 32,
+        "Silver": 10,
+        "Unknown": 0
+      }
+    ]
+  },
+  "registrations_by_month": {
+    "2024-01": 17,
+    "2024-02": 17,
+    "2024-03": 30,
+    "2024-04": 21,
+    "2024-05": 19,
+    "2024-06": 24,
+    "2024-07": 10,
+    "2024-08": 24,
+    "2024-09": 23,
+    "2024-10": 25,
+    "2024-11": 25,
+    "2024-12": 25,
+    "2025-01": 21,
+    "2025-02": 15,
+    "2025-03": 33,
+    "2025-04": 26,
+    "2025-05": 12,
+    "2025-06": 20,
+    "2025-07": 19,
+    "2025-08": 22,
+    "2025-09": 23,
+    "2025-10": 23,
+    "2025-11": 26
+  },
+  "behavior": {
+    "activity_rules": {
+      "active_within_days": 90,
+      "cooling_within_days": 180
+    },
+    "activity_summary": [
+      {
+        "activity": "Active",
+        "customers": 137,
+        "revenue": 18160613.0,
+        "customer_share_pct": 27.4,
+        "revenue_share_pct": 28.12
+      },
+      {
+        "activity": "Cooling",
+        "customers": 148,
+        "revenue": 18687758.0,
+        "customer_share_pct": 29.6,
+        "revenue_share_pct": 28.94
+      },
+      {
+        "activity": "Inactive",
+        "customers": 215,
+        "revenue": 27734030.0,
+        "customer_share_pct": 43.0,
+        "revenue_share_pct": 42.94
+      }
+    ],
+    "activity_by_segment": {
+      "Bronze": {
+        "Active": 23,
+        "Cooling": 31,
+        "Inactive": 26
+      },
+      "Gold": {
+        "Active": 88,
+        "Cooling": 96,
+        "Inactive": 134
+      },
+      "Silver": {
+        "Active": 26,
+        "Cooling": 21,
+        "Inactive": 54
+      },
+      "Unknown": {
+        "Active": 0,
+        "Cooling": 0,
+        "Inactive": 1
+      }
+    },
+    "inactive_gold_count": 134,
+    "inactive_gold_revenue": 22743032.0,
+    "inactive_gold_customers": [
+      {
+        "customer_id": "C0042",
+        "name": "Arjun Singh 42",
+        "city": "Mumbai",
+        "lifetime_value": 249919,
+        "last_order_date": "2026-02-22",
+        "days_since_last_order": 257
+      },
+      {
+        "customer_id": "C0286",
+        "name": "Priya Nair 286",
+        "city": "Mumbai",
+        "lifetime_value": 246558,
+        "last_order_date": "2026-03-31",
+        "days_since_last_order": 220
+      },
+      {
+        "customer_id": "C0288",
+        "name": "Priya Nair 288",
+        "city": "Hyderabad",
+        "lifetime_value": 246076,
+        "last_order_date": "2026-01-19",
+        "days_since_last_order": 291
+      },
+      {
+        "customer_id": "C0444",
+        "name": "Rahul Verma 444",
+        "city": "Mumbai",
+        "lifetime_value": 245660,
+        "last_order_date": "2026-02-19",
+        "days_since_last_order": 260
+      },
+      {
+        "customer_id": "C0405",
+        "name": "Neha Gupta 405",
+        "city": "Hyderabad",
+        "lifetime_value": 244894,
+        "last_order_date": "2026-05-03",
+        "days_since_last_order": 187
+      },
+      {
+        "customer_id": "C0160",
+        "name": "Ananya Das 160",
+        "city": "Pune",
+        "lifetime_value": 243737,
+        "last_order_date": "2026-01-29",
+        "days_since_last_order": 281
+      },
+      {
+        "customer_id": "C0048",
+        "name": "Arjun Singh 48",
+        "city": "Hyderabad",
+        "lifetime_value": 243683,
+        "last_order_date": "2026-04-24",
+        "days_since_last_order": 196
+      },
+      {
+        "customer_id": "C0443",
+        "name": "Rahul Verma 443",
+        "city": "Kolkata",
+        "lifetime_value": 243491,
+        "last_order_date": "2026-04-02",
+        "days_since_last_order": 218
+      },
+      {
+        "customer_id": "C0401",
+        "name": "Rahul Verma 401",
+        "city": "Mumbai",
+        "lifetime_value": 243287,
+        "last_order_date": "2026-01-08",
+        "days_since_last_order": 302
+      },
+      {
+        "customer_id": "C0233",
+        "name": "Rahul Verma 233",
+        "city": "Ahmedabad",
+        "lifetime_value": 240606,
+        "last_order_date": "2026-01-14",
+        "days_since_last_order": 296
+      },
+      {
+        "customer_id": "C0287",
+        "name": "Neha Gupta 287",
+        "city": "Chennai",
+        "lifetime_value": 236275,
+        "last_order_date": "2026-04-01",
+        "days_since_last_order": 219
+      },
+      {
+        "customer_id": "C0195",
+        "name": "Pooja Rao 195",
+        "city": "Mumbai",
+        "lifetime_value": 231835,
+        "last_order_date": "2026-03-23",
+        "days_since_last_order": 228
+      },
+      {
+        "customer_id": "C0415",
+        "name": "Pooja Rao 415",
+        "city": "Ahmedabad",
+        "lifetime_value": 231514,
+        "last_order_date": "2026-04-24",
+        "days_since_last_order": 196
+      },
+      {
+        "customer_id": "C0453",
+        "name": "Arjun Singh 453",
+        "city": "Hyderabad",
+        "lifetime_value": 229977,
+        "last_order_date": "2026-01-17",
+        "days_since_last_order": 293
+      },
+      {
+        "customer_id": "C0460",
+        "name": "Rahul Verma 460",
+        "city": "Chennai",
+        "lifetime_value": 229909,
+        "last_order_date": "2026-02-18",
+        "days_since_last_order": 261
+      },
+      {
+        "customer_id": "C0386",
+        "name": "Vikram Jain 386",
+        "city": "Kolkata",
+        "lifetime_value": 229799,
+        "last_order_date": "2026-03-15",
+        "days_since_last_order": 236
+      },
+      {
+        "customer_id": "C0245",
+        "name": "Pooja Rao 245",
+        "city": "Chennai",
+        "lifetime_value": 227396,
+        "last_order_date": "2026-02-01",
+        "days_since_last_order": 278
+      },
+      {
+        "customer_id": "C0432",
+        "name": "Priya Nair 432",
+        "city": "Kolkata",
+        "lifetime_value": 225868,
+        "last_order_date": "2026-04-29",
+        "days_since_last_order": 191
+      },
+      {
+        "customer_id": "C0429",
+        "name": "Priya Nair 429",
+        "city": "Pune",
+        "lifetime_value": 224956,
+        "last_order_date": "2026-02-08",
+        "days_since_last_order": 271
+      },
+      {
+        "customer_id": "C0478",
+        "name": "Neha Gupta 478",
+        "city": "Bengaluru",
+        "lifetime_value": 224853,
+        "last_order_date": "2026-02-08",
+        "days_since_last_order": 271
+      },
+      {
+        "customer_id": "C0034",
+        "name": "Vikram Jain 34",
+        "city": "Chennai",
+        "lifetime_value": 223919,
+        "last_order_date": "2026-04-10",
+        "days_since_last_order": 210
+      },
+      {
+        "customer_id": "C0058",
+        "name": "Vikram Jain 58",
+        "city": "Kolkata",
+        "lifetime_value": 222870,
+        "last_order_date": "2026-03-13",
+        "days_since_last_order": 238
+      },
+      {
+        "customer_id": "C0452",
+        "name": "Ananya Das 452",
+        "city": "Ahmedabad",
+        "lifetime_value": 222071,
+        "last_order_date": "2026-02-11",
+        "days_since_last_order": 268
+      },
+      {
+        "customer_id": "C0215",
+        "name": "Arjun Singh 215",
+        "city": "Delhi",
+        "lifetime_value": 221350,
+        "last_order_date": "2026-03-02",
+        "days_since_last_order": 249
+      },
+      {
+        "customer_id": "C0173",
+        "name": "Vikram Jain 173",
+        "city": "Ahmedabad",
+        "lifetime_value": 221330,
+        "last_order_date": "2026-01-15",
+        "days_since_last_order": 295
+      },
+      {
+        "customer_id": "C0239",
+        "name": "Pooja Rao 239",
+        "city": "Ahmedabad",
+        "lifetime_value": 220393,
+        "last_order_date": "2026-05-05",
+        "days_since_last_order": 185
+      },
+      {
+        "customer_id": "C0342",
+        "name": "Neha Gupta 342",
+        "city": "Pune",
+        "lifetime_value": 219028,
+        "last_order_date": "2026-01-02",
+        "days_since_last_order": 308
+      },
+      {
+        "customer_id": "C0336",
+        "name": "Priya Nair 336",
+        "city": "Hyderabad",
+        "lifetime_value": 216993,
+        "last_order_date": "2026-01-29",
+        "days_since_last_order": 281
+      },
+      {
+        "customer_id": "C0263",
+        "name": "Rahul Verma 263",
+        "city": "Chennai",
+        "lifetime_value": 215925,
+        "last_order_date": "2026-03-16",
+        "days_since_last_order": 235
+      },
+      {
+        "customer_id": "C0106",
+        "name": "Arjun Singh 106",
+        "city": "Bengaluru",
+        "lifetime_value": 215016,
+        "last_order_date": "2026-02-12",
+        "days_since_last_order": 267
+      },
+      {
+        "customer_id": "C0117",
+        "name": "Pooja Rao 117",
+        "city": "Chennai",
+        "lifetime_value": 212481,
+        "last_order_date": "2026-01-30",
+        "days_since_last_order": 280
+      },
+      {
+        "customer_id": "C0092",
+        "name": "Pooja Rao 92",
+        "city": "Bengaluru",
+        "lifetime_value": 212384,
+        "last_order_date": "2026-04-13",
+        "days_since_last_order": 207
+      },
+      {
+        "customer_id": "C0082",
+        "name": "Vikram Jain 82",
+        "city": "Mumbai",
+        "lifetime_value": 211705,
+        "last_order_date": "2026-02-04",
+        "days_since_last_order": 275
+      },
+      {
+        "customer_id": "C0021",
+        "name": "Neha Gupta 21",
+        "city": "Bengaluru",
+        "lifetime_value": 211600,
+        "last_order_date": "2026-02-21",
+        "days_since_last_order": 258
+      },
+      {
+        "customer_id": "C0283",
+        "name": "Priya Nair 283",
+        "city": "Ahmedabad",
+        "lifetime_value": 206516,
+        "last_order_date": "2026-02-15",
+        "days_since_last_order": 264
+      },
+      {
+        "customer_id": "C0025",
+        "name": "Pooja Rao 25",
+        "city": "Kolkata",
+        "lifetime_value": 205882,
+        "last_order_date": "2026-03-09",
+        "days_since_last_order": 242
+      },
+      {
+        "customer_id": "C0364",
+        "name": "Amit Sharma 364",
+        "city": "Pune",
+        "lifetime_value": 205816,
+        "last_order_date": "2026-01-09",
+        "days_since_last_order": 301
+      },
+      {
+        "customer_id": "C0045",
+        "name": "Karan Mehta 45",
+        "city": "Bengaluru",
+        "lifetime_value": 205046,
+        "last_order_date": "2026-03-24",
+        "days_since_last_order": 227
+      },
+      {
+        "customer_id": "C0302",
+        "name": "Amit Sharma 302",
+        "city": "Hyderabad",
+        "lifetime_value": 203517,
+        "last_order_date": "2026-04-09",
+        "days_since_last_order": 211
+      },
+      {
+        "customer_id": "C0368",
+        "name": "Vikram Jain 368",
+        "city": "Chennai",
+        "lifetime_value": 199128,
+        "last_order_date": "2026-01-23",
+        "days_since_last_order": 287
+      },
+      {
+        "customer_id": "C0285",
+        "name": "Vikram Jain 285",
+        "city": "Ahmedabad",
+        "lifetime_value": 198642,
+        "last_order_date": "2026-01-20",
+        "days_since_last_order": 290
+      },
+      {
+        "customer_id": "C0071",
+        "name": "Pooja Rao 71",
+        "city": "Kolkata",
+        "lifetime_value": 193362,
+        "last_order_date": "2026-03-15",
+        "days_since_last_order": 236
+      },
+      {
+        "customer_id": "C0489",
+        "name": "Priya Nair 489",
+        "city": "Chennai",
+        "lifetime_value": 191561,
+        "last_order_date": "2026-03-20",
+        "days_since_last_order": 231
+      },
+      {
+        "customer_id": "C0143",
+        "name": "Ananya Das 143",
+        "city": "Chennai",
+        "lifetime_value": 191007,
+        "last_order_date": "2026-03-31",
+        "days_since_last_order": 220
+      },
+      {
+        "customer_id": "C0433",
+        "name": "Karan Mehta 433",
+        "city": "Mumbai",
+        "lifetime_value": 190380,
+        "last_order_date": "2026-03-19",
+        "days_since_last_order": 232
+      },
+      {
+        "customer_id": "C0345",
+        "name": "Rahul Verma 345",
+        "city": "Delhi",
+        "lifetime_value": 188601,
+        "last_order_date": "2026-02-02",
+        "days_since_last_order": 277
+      },
+      {
+        "customer_id": "C0243",
+        "name": "Vikram Jain 243",
+        "city": "Pune",
+        "lifetime_value": 186010,
+        "last_order_date": "2026-04-15",
+        "days_since_last_order": 205
+      },
+      {
+        "customer_id": "C0475",
+        "name": "Neha Gupta 475",
+        "city": "Hyderabad",
+        "lifetime_value": 185698,
+        "last_order_date": "2026-02-10",
+        "days_since_last_order": 269
+      },
+      {
+        "customer_id": "C0277",
+        "name": "Sneha Patel 277",
+        "city": "Chennai",
+        "lifetime_value": 183570,
+        "last_order_date": "2026-03-12",
+        "days_since_last_order": 239
+      },
+      {
+        "customer_id": "C0075",
+        "name": "Priya Nair 75",
+        "city": "Mumbai",
+        "lifetime_value": 180168,
+        "last_order_date": "2026-02-13",
+        "days_since_last_order": 266
+      },
+      {
+        "customer_id": "C0430",
+        "name": "Vikram Jain 430",
+        "city": "Mumbai",
+        "lifetime_value": 180168,
+        "last_order_date": "2026-01-25",
+        "days_since_last_order": 285
+      },
+      {
+        "customer_id": "C0324",
+        "name": "Karan Mehta 324",
+        "city": "Mumbai",
+        "lifetime_value": 179088,
+        "last_order_date": "2026-04-22",
+        "days_since_last_order": 198
+      },
+      {
+        "customer_id": "C0175",
+        "name": "Pooja Rao 175",
+        "city": "Bengaluru",
+        "lifetime_value": 175689,
+        "last_order_date": "2026-04-18",
+        "days_since_last_order": 202
+      },
+      {
+        "customer_id": "C0280",
+        "name": "Rahul Verma 280",
+        "city": "Chennai",
+        "lifetime_value": 175534,
+        "last_order_date": "2026-04-13",
+        "days_since_last_order": 207
+      },
+      {
+        "customer_id": "C0097",
+        "name": "Ananya Das 97",
+        "city": "Mumbai",
+        "lifetime_value": 174581,
+        "last_order_date": "2026-04-08",
+        "days_since_last_order": 212
+      },
+      {
+        "customer_id": "C0282",
+        "name": "Arjun Singh 282",
+        "city": "Chennai",
+        "lifetime_value": 174318,
+        "last_order_date": "2026-01-31",
+        "days_since_last_order": 279
+      },
+      {
+        "customer_id": "C0169",
+        "name": "Karan Mehta 169",
+        "city": "Hyderabad",
+        "lifetime_value": 173031,
+        "last_order_date": "2026-03-28",
+        "days_since_last_order": 223
+      },
+      {
+        "customer_id": "C0177",
+        "name": "Ananya Das 177",
+        "city": "Kolkata",
+        "lifetime_value": 172507,
+        "last_order_date": "2026-01-16",
+        "days_since_last_order": 294
+      },
+      {
+        "customer_id": "C0274",
+        "name": "Ananya Das 274",
+        "city": "Ahmedabad",
+        "lifetime_value": 172233,
+        "last_order_date": "2026-04-30",
+        "days_since_last_order": 190
+      },
+      {
+        "customer_id": "C0456",
+        "name": "Ananya Das 456",
+        "city": "Ahmedabad",
+        "lifetime_value": 171919,
+        "last_order_date": "2026-01-05",
+        "days_since_last_order": 305
+      },
+      {
+        "customer_id": "C0060",
+        "name": "Karan Mehta 60",
+        "city": "Pune",
+        "lifetime_value": 166309,
+        "last_order_date": "2026-01-03",
+        "days_since_last_order": 307
+      },
+      {
+        "customer_id": "C0319",
+        "name": "Ananya Das 319",
+        "city": "Ahmedabad",
+        "lifetime_value": 166120,
+        "last_order_date": "2026-04-24",
+        "days_since_last_order": 196
+      },
+      {
+        "customer_id": "C0150",
+        "name": "Karan Mehta 150",
+        "city": "Delhi",
+        "lifetime_value": 165418,
+        "last_order_date": "2026-02-14",
+        "days_since_last_order": 265
+      },
+      {
+        "customer_id": "C0124",
+        "name": "Ananya Das 124",
+        "city": "Bengaluru",
+        "lifetime_value": 163621,
+        "last_order_date": "2026-03-20",
+        "days_since_last_order": 231
+      },
+      {
+        "customer_id": "C0395",
+        "name": "Pooja Rao 395",
+        "city": "Delhi",
+        "lifetime_value": 163589,
+        "last_order_date": "2026-01-21",
+        "days_since_last_order": 289
+      },
+      {
+        "customer_id": "C0108",
+        "name": "Arjun Singh 108",
+        "city": "Bengaluru",
+        "lifetime_value": 162929,
+        "last_order_date": "2026-04-03",
+        "days_since_last_order": 217
+      },
+      {
+        "customer_id": "C0003",
+        "name": "Priya Nair 3",
+        "city": "Delhi",
+        "lifetime_value": 161732,
+        "last_order_date": "2026-01-27",
+        "days_since_last_order": 283
+      },
+      {
+        "customer_id": "C0367",
+        "name": "Rahul Verma 367",
+        "city": "Pune",
+        "lifetime_value": 161705,
+        "last_order_date": "2026-01-25",
+        "days_since_last_order": 285
+      },
+      {
+        "customer_id": "C0011",
+        "name": "Neha Gupta 11",
+        "city": "Delhi",
+        "lifetime_value": 160986,
+        "last_order_date": "2026-02-13",
+        "days_since_last_order": 266
+      },
+      {
+        "customer_id": "C0366",
+        "name": "Karan Mehta 366",
+        "city": "Bengaluru",
+        "lifetime_value": 160698,
+        "last_order_date": "2026-01-18",
+        "days_since_last_order": 292
+      },
+      {
+        "customer_id": "C0158",
+        "name": "Vikram Jain 158",
+        "city": "Mumbai",
+        "lifetime_value": 159084,
+        "last_order_date": "2026-04-04",
+        "days_since_last_order": 216
+      },
+      {
+        "customer_id": "C0170",
+        "name": "Pooja Rao 170",
+        "city": "Kolkata",
+        "lifetime_value": 157212,
+        "last_order_date": "2026-03-20",
+        "days_since_last_order": 231
+      },
+      {
+        "customer_id": "C0154",
+        "name": "Karan Mehta 154",
+        "city": "Chennai",
+        "lifetime_value": 155706,
+        "last_order_date": "2026-02-07",
+        "days_since_last_order": 272
+      },
+      {
+        "customer_id": "C0284",
+        "name": "Karan Mehta 284",
+        "city": "Chennai",
+        "lifetime_value": 155505,
+        "last_order_date": "2026-04-29",
+        "days_since_last_order": 191
+      },
+      {
+        "customer_id": "C0312",
+        "name": "Vikram Jain 312",
+        "city": "Chennai",
+        "lifetime_value": 155176,
+        "last_order_date": "2026-01-06",
+        "days_since_last_order": 304
+      },
+      {
+        "customer_id": "C0240",
+        "name": "Priya Nair 240",
+        "city": "Chennai",
+        "lifetime_value": 155095,
+        "last_order_date": "2026-02-26",
+        "days_since_last_order": 253
+      },
+      {
+        "customer_id": "C0421",
+        "name": "Priya Nair 421",
+        "city": "Hyderabad",
+        "lifetime_value": 154366,
+        "last_order_date": "2026-05-06",
+        "days_since_last_order": 184
+      },
+      {
+        "customer_id": "C0292",
+        "name": "Rahul Verma 292",
+        "city": "Kolkata",
+        "lifetime_value": 153887,
+        "last_order_date": "2026-02-24",
+        "days_since_last_order": 255
+      },
+      {
+        "customer_id": "C0450",
+        "name": "Amit Sharma 450",
+        "city": "Delhi",
+        "lifetime_value": 153111,
+        "last_order_date": "2026-05-05",
+        "days_since_last_order": 185
+      },
+      {
+        "customer_id": "C0328",
+        "name": "Pooja Rao 328",
+        "city": "Delhi",
+        "lifetime_value": 152893,
+        "last_order_date": "2026-02-27",
+        "days_since_last_order": 252
+      },
+      {
+        "customer_id": "C0471",
+        "name": "Pooja Rao 471",
+        "city": "Pune",
+        "lifetime_value": 152838,
+        "last_order_date": "2026-05-04",
+        "days_since_last_order": 186
+      },
+      {
+        "customer_id": "C0132",
+        "name": "Karan Mehta 132",
+        "city": "Hyderabad",
+        "lifetime_value": 152239,
+        "last_order_date": "2026-03-02",
+        "days_since_last_order": 249
+      },
+      {
+        "customer_id": "C0189",
+        "name": "Amit Sharma 189",
+        "city": "Hyderabad",
+        "lifetime_value": 152233,
+        "last_order_date": "2026-02-24",
+        "days_since_last_order": 255
+      },
+      {
+        "customer_id": "C0377",
+        "name": "Sneha Patel 377",
+        "city": "Ahmedabad",
+        "lifetime_value": 150940,
+        "last_order_date": "2026-03-31",
+        "days_since_last_order": 220
+      },
+      {
+        "customer_id": "C0278",
+        "name": "Ananya Das 278",
+        "city": "Hyderabad",
+        "lifetime_value": 149271,
+        "last_order_date": "2026-03-22",
+        "days_since_last_order": 229
+      },
+      {
+        "customer_id": "C0206",
+        "name": "Amit Sharma 206",
+        "city": "Mumbai",
+        "lifetime_value": 145690,
+        "last_order_date": "2026-01-05",
+        "days_since_last_order": 305
+      },
+      {
+        "customer_id": "C0331",
+        "name": "Pooja Rao 331",
+        "city": "Chennai",
+        "lifetime_value": 145682,
+        "last_order_date": "2026-03-18",
+        "days_since_last_order": 233
+      },
+      {
+        "customer_id": "C0069",
+        "name": "Pooja Rao 69",
+        "city": "Hyderabad",
+        "lifetime_value": 145523,
+        "last_order_date": "2026-01-09",
+        "days_since_last_order": 301
+      },
+      {
+        "customer_id": "C0393",
+        "name": "Neha Gupta 393",
+        "city": "Mumbai",
+        "lifetime_value": 145413,
+        "last_order_date": "2026-04-08",
+        "days_since_last_order": 212
+      },
+      {
+        "customer_id": "C0032",
+        "name": "Pooja Rao 32",
+        "city": "Bengaluru",
+        "lifetime_value": 144987,
+        "last_order_date": "2026-05-03",
+        "days_since_last_order": 187
+      },
+      {
+        "customer_id": "C0168",
+        "name": "Ananya Das 168",
+        "city": "Delhi",
+        "lifetime_value": 144848,
+        "last_order_date": "2026-02-17",
+        "days_since_last_order": 262
+      },
+      {
+        "customer_id": "C0389",
+        "name": "Karan Mehta 389",
+        "city": "Chennai",
+        "lifetime_value": 143934,
+        "last_order_date": "2026-03-10",
+        "days_since_last_order": 241
+      },
+      {
+        "customer_id": "C0355",
+        "name": "Sneha Patel 355",
+        "city": "Kolkata",
+        "lifetime_value": 143632,
+        "last_order_date": "2026-03-07",
+        "days_since_last_order": 244
+      },
+      {
+        "customer_id": "C0461",
+        "name": "Neha Gupta 461",
+        "city": "Delhi",
+        "lifetime_value": 143453,
+        "last_order_date": "2026-01-22",
+        "days_since_last_order": 288
+      },
+      {
+        "customer_id": "C0375",
+        "name": "Neha Gupta 375",
+        "city": "Chennai",
+        "lifetime_value": 141642,
+        "last_order_date": "2026-04-24",
+        "days_since_last_order": 196
+      },
+      {
+        "customer_id": "C0119",
+        "name": "Amit Sharma 119",
+        "city": "Mumbai",
+        "lifetime_value": 139502,
+        "last_order_date": "2026-03-23",
+        "days_since_last_order": 228
+      },
+      {
+        "customer_id": "C0330",
+        "name": "Karan Mehta 330",
+        "city": "Bengaluru",
+        "lifetime_value": 137510,
+        "last_order_date": "2026-04-14",
+        "days_since_last_order": 206
+      },
+      {
+        "customer_id": "C0220",
+        "name": "Amit Sharma 220",
+        "city": "Pune",
+        "lifetime_value": 136092,
+        "last_order_date": "2026-01-21",
+        "days_since_last_order": 289
+      },
+      {
+        "customer_id": "C0379",
+        "name": "Sneha Patel 379",
+        "city": "Delhi",
+        "lifetime_value": 134924,
+        "last_order_date": "2026-01-25",
+        "days_since_last_order": 285
+      },
+      {
+        "customer_id": "C0147",
+        "name": "Ananya Das 147",
+        "city": "Hyderabad",
+        "lifetime_value": 134504,
+        "last_order_date": "2026-01-14",
+        "days_since_last_order": 296
+      },
+      {
+        "customer_id": "C0295",
+        "name": "Neha Gupta 295",
+        "city": "Delhi",
+        "lifetime_value": 134476,
+        "last_order_date": "2026-03-10",
+        "days_since_last_order": 241
+      },
+      {
+        "customer_id": "C0437",
+        "name": "Neha Gupta 437",
+        "city": "Pune",
+        "lifetime_value": 132888,
+        "last_order_date": "2026-01-09",
+        "days_since_last_order": 301
+      },
+      {
+        "customer_id": "C0253",
+        "name": "Amit Sharma 253",
+        "city": "Bengaluru",
+        "lifetime_value": 131924,
+        "last_order_date": "2026-04-09",
+        "days_since_last_order": 211
+      },
+      {
+        "customer_id": "C0237",
+        "name": "Sneha Patel 237",
+        "city": "Kolkata",
+        "lifetime_value": 130946,
+        "last_order_date": "2026-03-29",
+        "days_since_last_order": 222
+      },
+      {
+        "customer_id": "C0399",
+        "name": "Vikram Jain 399",
+        "city": "Hyderabad",
+        "lifetime_value": 130670,
+        "last_order_date": "2026-04-17",
+        "days_since_last_order": 203
+      },
+      {
+        "customer_id": "C0267",
+        "name": "Arjun Singh 267",
+        "city": "Kolkata",
+        "lifetime_value": 130587,
+        "last_order_date": "2026-04-20",
+        "days_since_last_order": 200
+      },
+      {
+        "customer_id": "C0088",
+        "name": "Karan Mehta 88",
+        "city": "Ahmedabad",
+        "lifetime_value": 130444,
+        "last_order_date": "2026-04-04",
+        "days_since_last_order": 216
+      },
+      {
+        "customer_id": "C0230",
+        "name": "Pooja Rao 230",
+        "city": "Hyderabad",
+        "lifetime_value": 129490,
+        "last_order_date": "2026-01-09",
+        "days_since_last_order": 301
+      },
+      {
+        "customer_id": "C0347",
+        "name": "Ananya Das 347",
+        "city": "Bengaluru",
+        "lifetime_value": 128750,
+        "last_order_date": "2026-01-17",
+        "days_since_last_order": 293
+      },
+      {
+        "customer_id": "C0387",
+        "name": "Rahul Verma 387",
+        "city": "Kolkata",
+        "lifetime_value": 126379,
+        "last_order_date": "2026-01-30",
+        "days_since_last_order": 280
+      },
+      {
+        "customer_id": "C0202",
+        "name": "Karan Mehta 202",
+        "city": "Pune",
+        "lifetime_value": 124860,
+        "last_order_date": "2026-05-04",
+        "days_since_last_order": 186
+      },
+      {
+        "customer_id": "C0223",
+        "name": "Karan Mehta 223",
+        "city": "Ahmedabad",
+        "lifetime_value": 124796,
+        "last_order_date": "2026-03-18",
+        "days_since_last_order": 233
+      },
+      {
+        "customer_id": "C0181",
+        "name": "Sneha Patel 181",
+        "city": "Chennai",
+        "lifetime_value": 123893,
+        "last_order_date": "2026-02-07",
+        "days_since_last_order": 272
+      },
+      {
+        "customer_id": "C0114",
+        "name": "Rahul Verma 114",
+        "city": "Chennai",
+        "lifetime_value": 122212,
+        "last_order_date": "2026-01-22",
+        "days_since_last_order": 288
+      },
+      {
+        "customer_id": "C0134",
+        "name": "Amit Sharma 134",
+        "city": "Ahmedabad",
+        "lifetime_value": 121987,
+        "last_order_date": "2026-04-20",
+        "days_since_last_order": 200
+      },
+      {
+        "customer_id": "C0126",
+        "name": "Neha Gupta 126",
+        "city": "Mumbai",
+        "lifetime_value": 121376,
+        "last_order_date": "2026-02-09",
+        "days_since_last_order": 270
+      },
+      {
+        "customer_id": "C0369",
+        "name": "Arjun Singh 369",
+        "city": "Ahmedabad",
+        "lifetime_value": 120071,
+        "last_order_date": "2026-04-30",
+        "days_since_last_order": 190
+      },
+      {
+        "customer_id": "C0028",
+        "name": "Neha Gupta 28",
+        "city": "Kolkata",
+        "lifetime_value": 119733,
+        "last_order_date": "2026-01-23",
+        "days_since_last_order": 287
+      },
+      {
+        "customer_id": "C0072",
+        "name": "Priya Nair 72",
+        "city": "Delhi",
+        "lifetime_value": 117522,
+        "last_order_date": "2026-01-01",
+        "days_since_last_order": 309
+      },
+      {
+        "customer_id": "C0107",
+        "name": "Priya Nair 107",
+        "city": "Hyderabad",
+        "lifetime_value": 116280,
+        "last_order_date": "2026-02-10",
+        "days_since_last_order": 269
+      },
+      {
+        "customer_id": "C0242",
+        "name": "Ananya Das 242",
+        "city": "Pune",
+        "lifetime_value": 114780,
+        "last_order_date": "2026-03-19",
+        "days_since_last_order": 232
+      },
+      {
+        "customer_id": "C0038",
+        "name": "Priya Nair 38",
+        "city": "Bengaluru",
+        "lifetime_value": 114749,
+        "last_order_date": "2026-03-24",
+        "days_since_last_order": 227
+      },
+      {
+        "customer_id": "C0074",
+        "name": "Karan Mehta 74",
+        "city": "Ahmedabad",
+        "lifetime_value": 114200,
+        "last_order_date": "2026-04-06",
+        "days_since_last_order": 214
+      },
+      {
+        "customer_id": "C0414",
+        "name": "Karan Mehta 414",
+        "city": "Kolkata",
+        "lifetime_value": 113509,
+        "last_order_date": "2026-01-24",
+        "days_since_last_order": 286
+      },
+      {
+        "customer_id": "C0348",
+        "name": "Pooja Rao 348",
+        "city": "Chennai",
+        "lifetime_value": 112182,
+        "last_order_date": "2026-04-03",
+        "days_since_last_order": 217
+      },
+      {
+        "customer_id": "C0500",
+        "name": "Vikram Jain 500",
+        "city": "Bengaluru",
+        "lifetime_value": 105987,
+        "last_order_date": "2026-01-07",
+        "days_since_last_order": 303
+      },
+      {
+        "customer_id": "C0474",
+        "name": "Priya Nair 474",
+        "city": "Kolkata",
+        "lifetime_value": 105622,
+        "last_order_date": "2026-03-13",
+        "days_since_last_order": 238
+      },
+      {
+        "customer_id": "C0309",
+        "name": "Karan Mehta 309",
+        "city": "Delhi",
+        "lifetime_value": 105551,
+        "last_order_date": "2026-05-01",
+        "days_since_last_order": 189
+      },
+      {
+        "customer_id": "C0485",
+        "name": "Neha Gupta 485",
+        "city": "Bengaluru",
+        "lifetime_value": 104633,
+        "last_order_date": "2026-02-13",
+        "days_since_last_order": 266
+      },
+      {
+        "customer_id": "C0026",
+        "name": "Vikram Jain 26",
+        "city": "Hyderabad",
+        "lifetime_value": 103754,
+        "last_order_date": "2026-03-20",
+        "days_since_last_order": 231
+      },
+      {
+        "customer_id": "C0053",
+        "name": "Sneha Patel 53",
+        "city": "Mumbai",
+        "lifetime_value": 103281,
+        "last_order_date": "2026-04-25",
+        "days_since_last_order": 195
+      },
+      {
+        "customer_id": "C0435",
+        "name": "Priya Nair 435",
+        "city": "Hyderabad",
+        "lifetime_value": 102832,
+        "last_order_date": "2026-01-31",
+        "days_since_last_order": 279
+      },
+      {
+        "customer_id": "C0218",
+        "name": "Priya Nair 218",
+        "city": "Hyderabad",
+        "lifetime_value": 100841,
+        "last_order_date": "2026-03-15",
+        "days_since_last_order": 236
+      },
+      {
+        "customer_id": "C0029",
+        "name": "Priya Nair 29",
+        "city": "Hyderabad",
+        "lifetime_value": 100498,
+        "last_order_date": "2026-05-02",
+        "days_since_last_order": 188
+      }
+    ],
+    "avg_order_value_by_city": {
+      "Bengaluru": 16660.17,
+      "Kolkata": 16601.03,
+      "Ahmedabad": 16481.13,
+      "Hyderabad": 16251.52,
+      "Mumbai": 15834.92,
+      "Chennai": 15439.62,
+      "Pune": 14364.47,
+      "Delhi": 13811.24
+    },
+    "avg_order_value_by_segment": {
+      "Bronze": 4126.25,
+      "Gold": 19967.58,
+      "Silver": 11428.1,
+      "Unknown": null
+    },
+    "correlations": {
+      "revenue_vs_orders": 0.0,
+      "revenue_vs_avg_order_value": 0.32,
+      "revenue_vs_tickets": 0.02,
+      "orders_vs_tickets": 0.03
+    },
+    "registration_cohorts": [
+      {
+        "reg_year": 2024,
+        "customers": 260,
+        "avg_lifetime_value": 130934.47,
+        "avg_orders": 15.15
+      },
+      {
+        "reg_year": 2025,
+        "customers": 240,
+        "avg_lifetime_value": 127793.22,
+        "avg_orders": 15.81
+      }
+    ],
+    "registrations_by_quarter": {
+      "2024Q1": 64,
+      "2024Q2": 64,
+      "2024Q3": 57,
+      "2024Q4": 75,
+      "2025Q1": 69,
+      "2025Q2": 58,
+      "2025Q3": 64,
+      "2025Q4": 49
+    }
+  }
+}

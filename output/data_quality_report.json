@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-11-06T14:14:23",
+  "summary": {
+    "total_records": 1501,
+    "duplicates": 1,
+    "invalid_customer_ids": 1,
+    "invalid_emails": 3,
+    "missing_fields": 1,
+    "negative_revenue": 1,
+    "invalid_values": 1,
+    "inconsistent_values": 35,
+    "orphan_records": 0,
+    "removed_records": 2,
+    "repaired_records": 40,
+    "successful_records": 1459
+  },
+  "by_source": {
+    "crm": {
+      "records_in": 501,
+      "removed": 1,
+      "repaired": 3,
+      "clean": 497,
+      "records_out": 500
+    },
+    "orders": {
+      "records_in": 500,
+      "removed": 0,
+      "repaired": 2,
+      "clean": 498,
+      "records_out": 500
+    },
+    "support": {
+      "records_in": 500,
+      "removed": 1,
+      "repaired": 35,
+      "clean": 464,
+      "records_out": 499
+    }
+  },
+  "issue_breakdown": {
+    "ticket_date_without_tickets": 35,
+    "invalid_email": 3,
+    "duplicate_record": 1,
+    "missing_total_orders": 1,
+    "negative_lifetime_value": 1,
+    "missing_customer_id": 1,
+    "missing_support_record": 1
+  },
+  "customer_360": {
+    "customers": 500,
+    "customers_without_flags": 460,
+    "customers_with_flags": 40,
+    "field_completeness_pct": {
+      "customer_id": 100.0,
+      "name": 100.0,
+      "email": 99.4,
+      "city": 100.0,
+      "registration_date": 100.0,
+      "total_orders": 99.8,
+      "lifetime_value": 99.8,
+      "last_order_date": 100.0,
+      "support_tickets": 99.8,
+      "last_ticket_date": 92.8,
+      "avg_order_value": 99.6,
+      "days_since_last_order": 100.0,
+      "segment": 100.0
+    }
+  },
+  "column_mappings": {
+    "crm": {
+      "customer_id": "customer_id",
+      "name": "name",
+      "email": "email",
+      "city": "city",
+      "registration_date": "registration_date"
+    },
+    "orders": {
+      "cust_id": "customer_id",
+      "total_orders": "total_orders",
+      "lifetime_value": "lifetime_value",
+      "last_order_date": "last_order_date"
+    },
+    "support": {
+      "customerId": "customer_id",
+      "tickets": "support_tickets",
+      "lastTicketDate": "last_ticket_date"
+    }
+  },
+  "unmapped_columns": {
+    "crm": [],
+    "orders": [],
+    "support": []
+  },
+  "log_file": "logs/pipeline_20261106_141423.log"
+}

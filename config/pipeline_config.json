@@ -1,0 +1,92 @@
+{
+  "input_dir": "data/raw",
+  "output_dir": "output",
+  "log_dir": "logs",
+  "log_level": "INFO",
+
+  "input_sources": [
+    {
+      "name": "crm",
+      "file": "crm_customers.json",
+      "primary": true
+    },
+    {
+      "name": "orders",
+      "file": "orders.csv"
+    },
+    {
+      "name": "support",
+      "file": "support_tickets.xml",
+      "xml_record_tag": "customer"
+    }
+  ],
+
+  "column_aliases": {
+    "customer_id": ["customer_id", "customerid", "cust_id", "custid", "c_id", "cid", "customer_no", "customer_number", "client_id"],
+    "name": ["name", "customer_name", "full_name", "fullname"],
+    "email": ["email", "email_id", "email_address", "mail"],
+    "city": ["city", "location", "town"],
+    "registration_date": ["registration_date", "reg_date", "signup_date", "registered_on", "created_at"],
+    "total_orders": ["total_orders", "order_count", "num_orders", "no_of_orders", "orders"],
+    "lifetime_value": ["lifetime_value", "ltv", "clv", "revenue", "total_revenue", "total_spend"],
+    "last_order_date": ["last_order_date", "last_order", "last_purchase_date"],
+    "support_tickets": ["support_tickets", "tickets", "ticket_count", "num_tickets", "total_tickets"],
+    "last_ticket_date": ["last_ticket_date", "last_ticket", "latest_ticket_date"]
+  },
+
+  "field_types": {
+    "customer_id": "id",
+    "name": "text",
+    "email": "email",
+    "city": "city",
+    "registration_date": "date",
+    "total_orders": "int",
+    "lifetime_value": "money",
+    "last_order_date": "date",
+    "support_tickets": "int",
+    "last_ticket_date": "date"
+  },
+
+  "city_aliases": {
+    "bangalore": "Bengaluru",
+    "bengaluru": "Bengaluru",
+    "bombay": "Mumbai",
+    "calcutta": "Kolkata",
+    "madras": "Chennai",
+    "new delhi": "Delhi",
+    "gurgaon": "Gurugram"
+  },
+
+  "mandatory_fields": {
+    "crm": ["customer_id", "name", "email", "city", "registration_date"],
+    "orders": ["customer_id", "total_orders", "lifetime_value", "last_order_date"],
+    "support": ["customer_id", "support_tickets"]
+  },
+
+  "validation": {
+    "customer_id_pattern": "^C\\d{4}$",
+    "email_pattern": "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$",
+    "reference_date": null
+  },
+
+  "segmentation": {
+    "method": "fixed",
+    "fixed": {
+      "gold_above": 100000,
+      "silver_from": 50000
+    },
+    "percentile": {
+      "gold_top_pct": 20,
+      "silver_next_pct": 30
+    }
+  },
+
+  "insights": {
+    "top_n_customers": 10,
+    "high_ticket_threshold": 5,
+    "activity_days": {
+      "active_within": 90,
+      "cooling_within": 180
+    }
+  }
+}

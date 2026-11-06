@@ -1,0 +1,432 @@
+[
+  {
+    "source": "crm",
+    "record_number": 501,
+    "customer_id": "C0105",
+    "issue": "duplicate_record",
+    "category": "duplicates",
+    "field": null,
+    "value": null,
+    "action": "dropped"
+  },
+  {
+    "source": "crm",
+    "record_number": 125,
+    "customer_id": "C0125",
+    "issue": "invalid_email",
+    "category": "invalid_emails",
+    "field": "email",
+    "value": "user125example.com",
+    "action": "set_to_null"
+  },
+  {
+    "source": "crm",
+    "record_number": 250,
+    "customer_id": "C0250",
+    "issue": "invalid_email",
+    "category": "invalid_emails",
+    "field": "email",
+    "value": "user250example.com",
+    "action": "set_to_null"
+  },
+  {
+    "source": "crm",
+    "record_number": 375,
+    "customer_id": "C0375",
+    "issue": "invalid_email",
+    "category": "invalid_emails",
+    "field": "email",
+    "value": "user375example.com",
+    "action": "set_to_null"
+  },
+  {
+    "source": "orders",
+    "record_number": 310,
+    "customer_id": "C0310",
+    "issue": "missing_total_orders",
+    "category": "missing_fields",
+    "field": "total_orders",
+    "value": null,
+    "action": "flagged"
+  },
+  {
+    "source": "orders",
+    "record_number": 420,
+    "customer_id": "C0420",
+    "issue": "negative_lifetime_value",
+    "category": "negative_values",
+    "field": "lifetime_value",
+    "value": "-5000",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 450,
+    "customer_id": null,
+    "issue": "missing_customer_id",
+    "category": "invalid_customer_ids",
+    "field": "customer_id",
+    "value": null,
+    "action": "quarantined"
+  },
+  {
+    "source": "support",
+    "record_number": 20,
+    "customer_id": "C0020",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-07-22",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 38,
+    "customer_id": "C0038",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-08-25",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 74,
+    "customer_id": "C0074",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-09-05",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 88,
+    "customer_id": "C0088",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-06-25",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 145,
+    "customer_id": "C0145",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-04-23",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 180,
+    "customer_id": "C0180",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-05-22",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 196,
+    "customer_id": "C0196",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-02-17",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 209,
+    "customer_id": "C0209",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-02-20",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 211,
+    "customer_id": "C0211",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-03-05",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 221,
+    "customer_id": "C0221",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-07-22",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 226,
+    "customer_id": "C0226",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-04-20",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 230,
+    "customer_id": "C0230",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-01-05",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 277,
+    "customer_id": "C0277",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-10-28",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 280,
+    "customer_id": "C0280",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-01-31",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 297,
+    "customer_id": "C0297",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-05-06",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 319,
+    "customer_id": "C0319",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-09-13",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 325,
+    "customer_id": "C0325",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-01-23",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 326,
+    "customer_id": "C0326",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-05-06",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 327,
+    "customer_id": "C0327",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-08-30",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 330,
+    "customer_id": "C0330",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-10-11",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 341,
+    "customer_id": "C0341",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-07-25",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 346,
+    "customer_id": "C0346",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-07-08",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 365,
+    "customer_id": "C0365",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-03-14",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 375,
+    "customer_id": "C0375",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-08-11",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 403,
+    "customer_id": "C0403",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-07-27",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 410,
+    "customer_id": "C0410",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-04-24",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 416,
+    "customer_id": "C0416",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-02-03",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 430,
+    "customer_id": "C0430",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-05-06",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 434,
+    "customer_id": "C0434",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-02-14",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 448,
+    "customer_id": "C0448",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-05-24",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 449,
+    "customer_id": "C0449",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-08-30",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 470,
+    "customer_id": "C0470",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-02-16",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 471,
+    "customer_id": "C0471",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-04-30",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 473,
+    "customer_id": "C0473",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-09-27",
+    "action": "set_to_null"
+  },
+  {
+    "source": "support",
+    "record_number": 479,
+    "customer_id": "C0479",
+    "issue": "ticket_date_without_tickets",
+    "category": "inconsistent_values",
+    "field": "last_ticket_date",
+    "value": "2026-01-12",
+    "action": "set_to_null"
+  },
+  {
+    "source": "merge",
+    "record_number": null,
+    "customer_id": "C0450",
+    "issue": "missing_support_record",
+    "category": "missing_source_records",
+    "field": null,
+    "value": null,
+    "action": "flagged"
+  }
+]
