@@ -2,6 +2,8 @@
 
 This pipeline combines customer data from three separate systems into one clean customer profile (Customer 360). It checks data quality along the way and shows the results on a Streamlit dashboard.
 
+**Live dashboard:** https://customer360-dashboard.streamlit.app/
+
 | Source | System | Format | ID column in the file |
 |---|---|---|---|
 | `crm_customers.json` | CRM (Customer Relationship Management) | JSON | `customer_id` |
@@ -35,6 +37,14 @@ python -m pipeline.run
 python -m pytest -v
 streamlit run dashboard/app.py
 ```
+
+If PowerShell says running scripts is disabled when you activate the environment, run this once, then run the activate line again:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+In Command Prompt (cmd) instead of PowerShell, activate with `.venv\Scripts\activate.bat`.
 
 The dashboard opens at http://localhost:8501. If the output files are missing, the dashboard runs the pipeline first. You can also re-run it from the sidebar.
 
@@ -210,11 +220,11 @@ python -m pipeline.run --config config/pipeline_config.json
 
 | Tab | Shows |
 |---|---|
-| Overview | KPI tiles, revenue by city, customers by segment |
-| Revenue & Segments | Top 10 customers, segment summary, lifetime value distribution with segment cut-offs |
+| Overview | KPI tiles, revenue by city, revenue share by segment (donut), top 5 customers, highlights |
+| Revenue & Segments | Customers and revenue by segment, top 10 customers, lifetime value distribution with segment cut-offs, segment summary |
 | Customer Behavior | Key findings, activity status, activity by segment, average order value by segment and city, orders vs lifetime value, registrations by quarter, downloadable win-back list |
 | Support | Adjustable ticket threshold, ticket distribution, Gold customers at risk, downloadable list |
-| Regional | Revenue by city, customer count by city, segment mix by city |
+| Regional | Revenue by city, customer count by city, heatmap of customers by city and segment, city summary |
 | Data Quality | Quality metrics, per-source counts, issue breakdown, field completeness, column mapping, quarantine, searchable issue log |
 | Customer Lookup | The full Customer 360 profile and flags for any customer |
 

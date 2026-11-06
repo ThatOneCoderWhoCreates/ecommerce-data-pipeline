@@ -274,7 +274,7 @@ with tabs[0]:
                                                               customers=("customer_id", "count"))
             seg = seg[seg["revenue"] > 0]
             seg["share"] = seg["revenue"] / seg["revenue"].sum()
-            seg["legend"] = seg.apply(lambda r: f"{r['segment']}  {r['share']:.0%}", axis=1)
+            seg["legend"] = [f"{name}  {share:.0%}" for name, share in zip(seg["segment"], seg["share"])]
             seg["revenue_label"] = seg["revenue"].map(inr)
             seg["order"] = seg["segment"].map({s: i for i, s in enumerate(SEGMENT_ORDER)})
             legend_order = seg.sort_values("order")["legend"].tolist()
@@ -298,12 +298,13 @@ with tabs[0]:
     with left:
         with card("Top 5 customers", "Highest lifetime value"):
             top5 = c360.dropna(subset=["lifetime_value"]).nlargest(5, "lifetime_value")
+            ltv_max = float(c360["lifetime_value"].max()) if c360["lifetime_value"].notna().any() else 1.0
             st.dataframe(top5[["customer_id", "name", "city", "segment", "lifetime_value", "total_orders"]],
                          hide_index=True,
                          column_config={"customer_id": "ID", "name": "Name", "city": "City", "segment": "Segment",
                                         "lifetime_value": st.column_config.ProgressColumn(
                                             "Revenue (₹)", format="%,d", min_value=0,
-                                            max_value=float(c360["lifetime_value"].max())),
+                                            max_value=ltv_max),
                                         "total_orders": "Orders"})
     with right:
         with card("Highlights", "What stands out in the current selection"):
