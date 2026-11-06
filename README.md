@@ -46,7 +46,7 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 In Command Prompt (cmd) instead of PowerShell, activate with `.venv\Scripts\activate.bat`.
 
-The dashboard opens at http://localhost:8501. If the output files are missing, the dashboard runs the pipeline first. You can also re-run it from the sidebar.
+The dashboard opens at http://localhost:8501. If the output files are missing, the dashboard runs the pipeline first. You can also re-run it with the **Re-run pipeline** button at the top right.
 
 ## Project structure
 
@@ -64,9 +64,12 @@ ecommerce-data-pipeline/
 │   ├── insights.py               Step 5: segmentation and business insights
 │   └── run.py                    Runs all steps and writes outputs
 ├── dashboard/app.py              Streamlit dashboard
+├── .streamlit/config.toml        Dashboard theme colors (light and dark)
 ├── tests/                        50 unit and end-to-end tests (pytest)
 ├── output/                       Generated JSON outputs
-└── logs/                         One log file per run
+├── logs/                         One log file per run
+├── requirements.txt              Python packages
+└── README.md                     This file
 ```
 
 ## How the pipeline works
@@ -149,12 +152,14 @@ The CRM is the master customer list (`"primary": true` in the config). Orders an
 - **Regional:** revenue, customer count and segment mix by city.
 - **Customer behavior:** activity status from days since the last order (Active up to 90 days, Cooling 91 to 180, Inactive more than 180), a win-back list of inactive Gold customers, average order value by segment and city, correlations between revenue, orders and tickets, and new registrations by quarter.
 
-Key findings on the provided data:
+Key findings on the provided data (pipeline run on November 6, 2026):
 - 43% of customers have not ordered in more than 180 days. They hold ₹2.77 Cr of lifetime revenue, and 134 of them are Gold (₹2.27 Cr).
 - High-value customers spend more per order, not more often. Revenue has a correlation of 0.00 with number of orders and 0.32 with average order value.
 - Gold customers spend about ₹19,968 per order, compared with ₹4,126 for Bronze.
 - Support tickets are not linked to spending (correlation 0.02).
 - 171 Gold customers have more than 5 tickets, holding ₹2.97 Cr of revenue.
+
+**Note:** `days_since_last_order` and the activity status (Active, Cooling, Inactive) are measured from the day the pipeline runs. Running it on a later date gives slightly different activity numbers, which is expected. Every other number in this README stays the same. To reproduce these exact figures, set `validation.reference_date` to `"2026-11-06"` in the config.
 
 ## Results on the provided data
 
@@ -166,7 +171,9 @@ Key findings on the provided data:
   "invalid_emails": 3,
   "missing_fields": 1,
   "negative_revenue": 1,
+  "invalid_values": 1,
   "inconsistent_values": 35,
+  "orphan_records": 0,
   "removed_records": 2,
   "repaired_records": 40,
   "successful_records": 1459
@@ -195,7 +202,7 @@ The empty-ID support record sits between C0449 and C0451, so it is probably C045
 | `data_quality_report.json` | Summary counts, per-source counts, issue breakdown, field completeness, column mappings |
 | `data_quality_issues.json` | One entry per issue: source, record number, customer, field, original value, action taken |
 | `quarantine.json` | Removed records with the reason and the original values |
-| `insights.json` | KPIs (Key Performance Indicators), top customers, segments, support and regional insights |
+| `insights.json` | KPIs (Key Performance Indicators), top customers, segments, support, regional and customer behavior insights |
 
 ## Configuration
 
@@ -229,6 +236,10 @@ python -m pipeline.run --config config/pipeline_config.json
 | Customer Lookup | The full Customer 360 profile and flags for any customer |
 
 The filter bar at the top has dropdowns for city and segment, each with multiple selections. Amounts are shown in lakh (L, 1,00,000) and crore (Cr, 1,00,00,000).
+
+## Deployment
+
+The dashboard is deployed on Streamlit Community Cloud at https://customer360-dashboard.streamlit.app/, running `dashboard/app.py` from this project's GitHub repository. Every push to GitHub redeploys it automatically.
 
 ## Tests
 
